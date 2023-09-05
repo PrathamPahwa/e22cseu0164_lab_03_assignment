@@ -1,12 +1,12 @@
 class Employee:
-    def _init_(self, emp_id, name, age, salary):
+    def __init__(self, emp_id, name, age, salary):
         self.emp_id = emp_id
         self.name = name
         self.age = age
         self.salary = salary
 
 class EmployeeDatabase:
-    def _init_(self):
+    def __init__(self):
         self.employees = []
 
     def add_employee(self, employee):
